@@ -1,8 +1,6 @@
 const n_port = 50002;
 const path = require('path');
 var fs = require('fs');
-
-
 var express = require('express');
 
 
@@ -36,7 +34,7 @@ if (!fs.existsSync(dbFile)) fs.writeFileSync(dbFile, '{"info": []}', "utf8");
 const jsonServer = require('json-server');
 const server = jsonServer.create();
 var router = jsonServer.router(path.join('data/db.json'));
-const middlewares = jsonServer.defaults();
+const middlewares = jsonServer.defaults({ logger: false });
 server.use(middlewares);
 server.use(router);
 

@@ -1,0 +1,1952 @@
+{
+  "info": [
+    {
+      "groups": [
+        {
+          "BellFibeHouse-03": [
+            {
+              "player_ip": "192.168.3.161",
+              "serial": "THD113002418",
+              "model": "HD224",
+              "player_name": "BFH-03",
+              "health": "Error",
+              "uptime": "00:00:46",
+              "network": "MLSE_VT",
+              "id": 1
+            }
+          ],
+          "id": 1
+        },
+        {
+          "BellFibeHouse-02": [
+            {
+              "player_ip": "172.27.4.23",
+              "serial": "THD114000169",
+              "model": "HD224",
+              "player_name": "BFH-02",
+              "health": "Error",
+              "uptime": "13.08:21:01",
+              "network": "MLSE_VT",
+              "id": 1
+            }
+          ],
+          "id": 2
+        },
+        {
+          "BellFibeHouse-01": [
+            {
+              "player_ip": "172.27.4.22",
+              "serial": "THD11T002588",
+              "model": "HD224",
+              "player_name": "BFH-01",
+              "health": "Error",
+              "uptime": "00:10:59",
+              "network": "MLSE_VT",
+              "id": 1
+            }
+          ],
+          "id": 3
+        },
+        {
+          "SBA_LG-TV": [
+            {
+              "player_ip": "172.20.170.206",
+              "serial": "1915C3086764",
+              "model": "LGUV5N",
+              "player_name": "Default Device",
+              "health": "Normal",
+              "uptime": "2.15:31:12",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 4
+        },
+        {
+          "LocalTest": [
+            {
+              "player_ip": "172.20.170.223",
+              "serial": "D7E945000224",
+              "model": "XT1144",
+              "player_name": "Test_XT4_2",
+              "health": "Error",
+              "uptime": "04:29:41",
+              "network": "MLSE_Partnership",
+              "id": 1
+            },
+            {
+              "player_ip": "172.20.170.107",
+              "serial": "UJE23V001790",
+              "model": "XT1144",
+              "player_name": "Test_XT4",
+              "health": "Error",
+              "uptime": "08:55:36",
+              "network": "MLSE_Partnership",
+              "id": 2
+            },
+            {
+              "player_ip": "172.20.170.173",
+              "serial": "USE42T000731",
+              "model": "XT1145",
+              "player_name": "Migration_XT5_Test",
+              "health": "Normal",
+              "uptime": "19:35:23",
+              "network": "MLSE_Partnership",
+              "id": 3
+            }
+          ],
+          "id": 5
+        },
+        {
+          "SBA_OFFICE_15_Portraits": [
+            {
+              "player_ip": "172.20.170.60",
+              "serial": "D7E946000290",
+              "model": "XT1144",
+              "player_name": "Migration-XT4-TEST",
+              "health": "Normal",
+              "uptime": "06:00:35",
+              "network": "MLSE_Partnership",
+              "id": 1
+            },
+            {
+              "player_ip": "172.21.245.101",
+              "serial": "TKD1A3000788",
+              "model": "HD1024",
+              "player_name": "Test_HD_Wifi",
+              "health": "Normal",
+              "uptime": "06:00:39",
+              "network": "MLSE_Partnership",
+              "id": 2
+            }
+          ],
+          "id": 6
+        },
+        {
+          "OVO_DressingRoom_Followers": [
+            {
+              "player_ip": "172.17.36.242",
+              "serial": "USD3D3001672",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M05",
+              "health": "Normal",
+              "uptime": "21.14:55:26",
+              "network": "MLSE_Partnership",
+              "id": 1
+            },
+            {
+              "player_ip": "172.17.36.234",
+              "serial": "USE423000340",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M04",
+              "health": "Normal",
+              "uptime": "18.16:40:27",
+              "network": "MLSE_Partnership",
+              "id": 2
+            },
+            {
+              "player_ip": "172.17.36.145",
+              "serial": "USE42W000164",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M08",
+              "health": "Normal",
+              "uptime": "18.16:40:26",
+              "network": "MLSE_Partnership",
+              "id": 3
+            },
+            {
+              "player_ip": "172.17.36.133",
+              "serial": "USF55F000831",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M07",
+              "health": "Normal",
+              "uptime": "21.14:55:25",
+              "network": "MLSE_Partnership",
+              "id": 4
+            },
+            {
+              "player_ip": "172.17.36.142",
+              "serial": "USF55N000106",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M15",
+              "health": "Normal",
+              "uptime": "18.16:40:25",
+              "network": "MLSE_Partnership",
+              "id": 5
+            },
+            {
+              "player_ip": "172.17.36.149",
+              "serial": "USF55N000125",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M14",
+              "health": "Normal",
+              "uptime": "21.14:55:25",
+              "network": "MLSE_Partnership",
+              "id": 6
+            },
+            {
+              "player_ip": "172.17.36.222",
+              "serial": "USF55N000502",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M11",
+              "health": "Normal",
+              "uptime": "18.16:40:25",
+              "network": "MLSE_Partnership",
+              "id": 7
+            },
+            {
+              "player_ip": "172.17.36.215",
+              "serial": "USF55P000511",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M03",
+              "health": "Normal",
+              "uptime": "21.14:55:25",
+              "network": "MLSE_Partnership",
+              "id": 8
+            },
+            {
+              "player_ip": "172.17.36.194",
+              "serial": "USF55P001105",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M06",
+              "health": "Normal",
+              "uptime": "21.14:55:25",
+              "network": "MLSE_Partnership",
+              "id": 9
+            },
+            {
+              "player_ip": "172.17.36.217",
+              "serial": "USF55R000162",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M02",
+              "health": "Normal",
+              "uptime": "6.18:45:18",
+              "network": "MLSE_Partnership",
+              "id": 10
+            },
+            {
+              "player_ip": "172.17.36.180",
+              "serial": "USF55R000181",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M13",
+              "health": "Normal",
+              "uptime": "18.16:40:24",
+              "network": "MLSE_Partnership",
+              "id": 11
+            },
+            {
+              "player_ip": "172.17.36.232",
+              "serial": "USF55R000341",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M09",
+              "health": "Normal",
+              "uptime": "21.14:55:25",
+              "network": "MLSE_Partnership",
+              "id": 12
+            },
+            {
+              "player_ip": "172.17.36.243",
+              "serial": "USF55R000501",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M10",
+              "health": "Normal",
+              "uptime": "18.16:40:25",
+              "network": "MLSE_Partnership",
+              "id": 13
+            },
+            {
+              "player_ip": "172.17.36.144",
+              "serial": "USF55R000899",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M12",
+              "health": "Normal",
+              "uptime": "21.14:55:27",
+              "network": "MLSE_Partnership",
+              "id": 14
+            }
+          ],
+          "id": 7
+        },
+        {
+          "MLSE_Test_1": [
+            {
+              "player_ip": "172.20.170.81",
+              "serial": "USE42D000587",
+              "model": "XT1145",
+              "player_name": "Test_XT5",
+              "health": "Error",
+              "uptime": "10:15:16",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 8
+        },
+        {
+          "SBA_IPTV_Broadcast": [
+            {
+              "player_ip": "172.20.24.91",
+              "serial": "USE46F000464",
+              "model": "XT1145",
+              "player_name": "SBA_Routable_2",
+              "health": "Normal",
+              "uptime": "06:00:21",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 9
+        },
+        {
+          "API_TEST": [
+            {
+              "player_ip": "172.20.170.165",
+              "serial": "USF55N000045",
+              "model": "XT1145",
+              "player_name": "Default Device",
+              "health": "Normal",
+              "uptime": "07:00:17",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 10
+        },
+        {
+          "OVO_DressingRoom_Main": [
+            {
+              "player_ip": "172.17.36.213",
+              "serial": "USF55Y000012",
+              "model": "XT1145",
+              "player_name": "OVO_DressingRoom_M01",
+              "health": "Normal",
+              "uptime": "24.14:55:26",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 11
+        },
+        {
+          "SBA_LED_Gate1_Follower": [
+            {
+              "player_ip": "172.20.170.176",
+              "serial": "XCG31L000737",
+              "model": "XC4055",
+              "player_name": "Gate1_Follower_Test",
+              "health": "Normal",
+              "uptime": "19.20:37:04",
+              "network": "MLSE_Partnership",
+              "id": 1
+            },
+            {
+              "player_ip": "172.21.144.86",
+              "serial": "XCJ4DM000639",
+              "model": "XC4055",
+              "player_name": "Gate1_Follower_Test_2",
+              "health": "Error",
+              "uptime": "00:32:46",
+              "network": "MLSE_Partnership",
+              "id": 2
+            }
+          ],
+          "id": 12
+        },
+        {
+          "SBA_LED_Gate1_Main": [
+            {
+              "player_ip": "172.20.170.190",
+              "serial": "XCG31R002319",
+              "model": "XC4055",
+              "player_name": "Gate1_Main_Test",
+              "health": "Normal",
+              "uptime": "06:58:52",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 13
+        },
+        {
+          "SBA_LED_Gate1_SawTooth": [
+            {
+              "player_ip": "172.20.170.214",
+              "serial": "XCG32Y001433",
+              "model": "XC4055",
+              "player_name": "Gate1_SawTooth_Test",
+              "health": "Normal",
+              "uptime": "10.22:35:17",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 14
+        },
+        {
+          "OVO_CourtLED_8K": [
+            {
+              "player_ip": "172.17.36.187",
+              "serial": "XCJ52U000413",
+              "model": "XC4055",
+              "player_name": "OVO_Court_LED",
+              "health": "Normal",
+              "uptime": "27.21:55:29",
+              "network": "MLSE_Partnership",
+              "id": 1
+            }
+          ],
+          "id": 15
+        }
+      ]
+    },
+    {
+      "listGroup": [
+        {
+          "MLSE_LAB": [],
+          "id": 1
+        },
+        {
+          "MLSE": [],
+          "id": 2
+        },
+        {
+          "MLSE_VT": [
+            {
+              "group": "BellFibeHouse-03"
+            },
+            {
+              "group": "BellFibeHouse-02"
+            },
+            {
+              "group": "BellFibeHouse-01"
+            }
+          ],
+          "id": 3
+        },
+        {
+          "MLSE_SBA": [],
+          "id": 4
+        },
+        {
+          "MLSE_Partnership": [
+            {
+              "group": "SBA_LG-TV"
+            },
+            {
+              "group": "LocalTest"
+            },
+            {
+              "group": "SBA_OFFICE_15_Portraits"
+            },
+            {
+              "group": "OVO_DressingRoom_Followers"
+            },
+            {
+              "group": "MLSE_Test_1"
+            },
+            {
+              "group": "SBA_IPTV_Broadcast"
+            },
+            {
+              "group": "API_TEST"
+            },
+            {
+              "group": "OVO_DressingRoom_Main"
+            },
+            {
+              "group": "SBA_LED_Gate1_Follower"
+            },
+            {
+              "group": "SBA_LED_Gate1_Main"
+            },
+            {
+              "group": "SBA_LED_Gate1_SawTooth"
+            },
+            {
+              "group": "OVO_CourtLED_8K"
+            }
+          ],
+          "id": 5
+        }
+      ]
+    },
+    {
+      "listNetwork": [
+        {
+          "name": "MLSE_LAB",
+          "id": 1
+        },
+        {
+          "name": "MLSE",
+          "id": 2
+        },
+        {
+          "name": "MLSE_VT",
+          "id": 3
+        },
+        {
+          "name": "MLSE_SBA",
+          "id": 4
+        },
+        {
+          "name": "MLSE_Partnership",
+          "id": 5
+        }
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "SBA_LED_Gate1_Main": [
+        {
+          "string::[Device].<SBA_Gate1>": "gate1",
+          "string::[Device].<LED>": "gate1",
+          "string::[Device].<LED_all>": "all",
+          "serial": "XCG31R002319",
+          "network": "MLSE_Partnership",
+          "ip": "172.20.170.190",
+          "health": "Normal"
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "neighbourhoods": [
+    {
+      "Default": [
+        {
+          "chassis-descr": "v4.0.7 2016-03-29T09:48:38-06:00",
+          "chassis-id": "a4:13:4e:67:0d:c7",
+          "civic-address-country": "",
+          "group": "Default",
+          "mgmt-ip": "192.168.1.4",
+          "port-descr": "GigabitEthernet 3/40",
+          "port-id": "2040",
+          "serial": "L8G79S000576",
+          "vlan-pvid": "0",
+          "id": 1,
+          "ip": "192.168.1.210"
+        }
+      ],
+      "LocalTest": [
+        {
+          "chassis-descr": "v4.0.7 2016-03-29T09:48:38-06:00",
+          "chassis-id": "a4:13:4e:67:0d:c7",
+          "civic-address-country": "",
+          "group": "Default",
+          "mgmt-ip": "192.168.1.4",
+          "port-descr": "GigabitEthernet 3/40",
+          "port-id": "2040",
+          "serial": "L8G79S000576",
+          "vlan-pvid": "0",
+          "id": 1
+        },
+        {
+          "chassis-descr": "v4.0.7 2016-03-29T09:48:38-06:00",
+          "chassis-id": "a4:13:4e:67:0d:c7",
+          "civic-address-country": "",
+          "group": "Default",
+          "mgmt-ip": "192.168.1.4",
+          "port-descr": "GigabitEthernet 3/40",
+          "port-id": "2040",
+          "serial": "L8G79S000576",
+          "vlan-pvid": "0",
+          "id": 1
+        }
+      ]
+    }
+  ],
+  "specialGroup": [
+    {
+      "*Thai": [
+        {
+          "name": "LocalTest"
+        }
+      ],
+      "network": "MLSE_Partnership",
+      "id": 1
+    }
+  ],
+  "logs": [
+    {
+      "time": "5:05 PM",
+      "type": "button",
+      "destination": "192.168.0.44",
+      "command": "next",
+      "id": 1
+    },
+    {
+      "time": "5:07 PM",
+      "type": "button",
+      "destination": "OVO_DressingRoom_Followers",
+      "command": "trigger_leafs",
+      "id": 2
+    },
+    {
+      "time": "9:21 AM",
+      "type": "button",
+      "destination": "OVO_DressingRoom_Followers",
+      "command": "trigger_leafs",
+      "id": 3
+    },
+    {
+      "time": "9:25 AM",
+      "type": "button",
+      "destination": "OVO_DressingRoom_Followers",
+      "command": "trigger_leafs",
+      "id": 4
+    },
+    {
+      "time": "9:49 AM",
+      "type": "button",
+      "destination": "LocalTest",
+      "command": "trigger_leafs",
+      "id": 5
+    },
+    {
+      "time": "3:39 PM",
+      "type": "button",
+      "destination": "172.20.24.221",
+      "command": "send_up",
+      "id": 6
+    },
+    {
+      "time": "4:00 PM",
+      "type": "button",
+      "destination": "192.168.1.210",
+      "command": "refreship",
+      "id": 7
+    },
+    {
+      "time": "4:02 PM",
+      "type": "button",
+      "destination": "ALL GROUPS",
+      "command": "refreshAllGroup",
+      "id": 8
+    },
+    {
+      "time": "4:05 PM",
+      "type": "button",
+      "destination": "ALL GROUPS",
+      "command": "refreshAllGroup",
+      "id": 9
+    },
+    {
+      "time": "4:06 PM",
+      "type": "button",
+      "destination": "ALL GROUPS",
+      "command": "refreshAllGroup",
+      "id": 10
+    },
+    {
+      "time": "4:07 PM",
+      "type": "button",
+      "destination": "ALL GROUPS",
+      "command": "refreshAllGroup",
+      "id": 11
+    },
+    {
+      "time": "4:09 PM",
+      "type": "button",
+      "destination": "ALL GROUPS",
+      "command": "refreshAllGroup",
+      "id": 12
+    }
+  ],
+  "command": [
+    {
+      "udp": "fringe_argos",
+      "id": 1
+    },
+    {
+      "udp": "fringe_fullscreen",
+      "id": 2
+    },
+    {
+      "udp": "fringe_leafs",
+      "id": 3
+    },
+    {
+      "udp": "fringe_raptors",
+      "id": 4
+    },
+    {
+      "udp": "fringe_rsa",
+      "id": 5
+    },
+    {
+      "udp": "fringe_tfc",
+      "id": 6
+    },
+    {
+      "udp": "hdmi1",
+      "id": 7
+    },
+    {
+      "udp": "hide_clock",
+      "id": 8
+    },
+    {
+      "udp": "hide_info",
+      "id": 9
+    },
+    {
+      "udp": "hide_info",
+      "id": 10
+    },
+    {
+      "udp": "hide_scorebug",
+      "id": 11
+    },
+    {
+      "udp": "input1",
+      "id": 12
+    },
+    {
+      "udp": "input2",
+      "id": 13
+    },
+    {
+      "udp": "input3",
+      "id": 14
+    },
+    {
+      "udp": "input4",
+      "id": 15
+    },
+    {
+      "udp": "l30",
+      "id": 16
+    },
+    {
+      "udp": "large",
+      "id": 17
+    },
+    {
+      "udp": "largeudp://239.192.0.11:50000",
+      "id": 18
+    },
+    {
+      "udp": "largeudp://239.192.0.12:50000",
+      "id": 19
+    },
+    {
+      "udp": "largeudp://239.192.0.13:50000",
+      "id": 20
+    },
+    {
+      "udp": "largeudp://239.192.0.13:50000",
+      "id": 21
+    },
+    {
+      "udp": "largeudp://239.192.0.190:50000",
+      "id": 22
+    },
+    {
+      "udp": "largeudp://239.192.0.195:50000",
+      "id": 23
+    },
+    {
+      "udp": "largeudp://239.192.0.196:50000",
+      "id": 24
+    },
+    {
+      "udp": "largeudp://239.192.0.1:50000",
+      "id": 25
+    },
+    {
+      "udp": "largeudp://239.192.0.200:50000",
+      "id": 26
+    },
+    {
+      "udp": "largeudp://239.192.0.2:50000",
+      "id": 27
+    },
+    {
+      "udp": "largeudp://239.192.0.38:50000",
+      "id": 28
+    },
+    {
+      "udp": "largeudp://239.192.0.39:50000",
+      "id": 29
+    },
+    {
+      "udp": "largeudp://239.192.0.3:50000",
+      "id": 30
+    },
+    {
+      "udp": "largeudp://239.192.0.40:50000",
+      "id": 31
+    },
+    {
+      "udp": "largeudp://239.192.0.4:50000",
+      "id": 32
+    },
+    {
+      "udp": "largeudp://239.192.0.50",
+      "id": 33
+    },
+    {
+      "udp": "largeudp://239.192.0.50:50000",
+      "id": 34
+    },
+    {
+      "udp": "largeudp://239.192.0.53:50000",
+      "id": 35
+    },
+    {
+      "udp": "largeudp://239.192.0.5:50000",
+      "id": 36
+    },
+    {
+      "udp": "largeudp://239.192.0.61:50000",
+      "id": 37
+    },
+    {
+      "udp": "largeudp://239.192.0.76:50000",
+      "id": 38
+    },
+    {
+      "udp": "largeudp://239.192.0.8:50000",
+      "id": 39
+    },
+    {
+      "udp": "largeudp://239.192.0.91:50000",
+      "id": 40
+    },
+    {
+      "udp": "largeudp://239.193.20.14:50000",
+      "id": 41
+    },
+    {
+      "udp": "largeudp://239.193.20.15:50000",
+      "id": 42
+    },
+    {
+      "udp": "largeudp://239.194.0.18:50000",
+      "id": 43
+    },
+    {
+      "udp": "largeudp://239.194.0.19:50000",
+      "id": 44
+    },
+    {
+      "udp": "largeudp://239.194.0.19:50000",
+      "id": 45
+    },
+    {
+      "udp": "leafsdr_content",
+      "id": 46
+    },
+    {
+      "udp": "leafsdr_playoffs",
+      "id": 47
+    },
+    {
+      "udp": "leafsdr_standings",
+      "id": 48
+    },
+    {
+      "udp": "logo_events",
+      "id": 49
+    },
+    {
+      "udp": "logo_leafs",
+      "id": 50
+    },
+    {
+      "udp": "logo_raptors",
+      "id": 51
+    },
+    {
+      "udp": "logo_raptorsbg",
+      "id": 52
+    },
+    {
+      "udp": "logo_specialevent1",
+      "id": 53
+    },
+    {
+      "udp": "matchup",
+      "id": 54
+    },
+    {
+      "udp": "next",
+      "id": 55
+    },
+    {
+      "udp": "olg",
+      "id": 56
+    },
+    {
+      "udp": "ovo_court_full_a",
+      "id": 57
+    },
+    {
+      "udp": "ovo_court_full_win",
+      "id": 58
+    },
+    {
+      "udp": "playlist",
+      "id": 59
+    },
+    {
+      "udp": "prime",
+      "id": 60
+    },
+    {
+      "udp": "reboot_suite",
+      "id": 61
+    },
+    {
+      "udp": "refresh_ip",
+      "id": 62
+    },
+    {
+      "udp": "send_enter",
+      "id": 63
+    },
+    {
+      "udp": "send_left",
+      "id": 64
+    },
+    {
+      "udp": "send_off",
+      "id": 65
+    },
+    {
+      "udp": "send_on",
+      "id": 66
+    },
+    {
+      "udp": "send_right",
+      "id": 67
+    },
+    {
+      "udp": "show_info",
+      "id": 68
+    },
+    {
+      "udp": "show_info_notimeout",
+      "id": 69
+    },
+    {
+      "udp": "show_scorebug",
+      "id": 70
+    },
+    {
+      "udp": "srt",
+      "id": 71
+    },
+    {
+      "udp": "sync",
+      "id": 72
+    },
+    {
+      "udp": "trigger_argos",
+      "id": 73
+    },
+    {
+      "udp": "trigger_black",
+      "id": 74
+    },
+    {
+      "udp": "trigger_black_off",
+      "id": 75
+    },
+    {
+      "udp": "trigger_black_off",
+      "id": 76
+    },
+    {
+      "udp": "trigger_bowlclosure",
+      "id": 77
+    },
+    {
+      "udp": "trigger_champs",
+      "id": 78
+    },
+    {
+      "udp": "trigger_concert",
+      "id": 79
+    },
+    {
+      "udp": "trigger_darkday",
+      "id": 80
+    },
+    {
+      "udp": "trigger_eventday",
+      "id": 81
+    },
+    {
+      "udp": "trigger_exitfullscreen",
+      "id": 82
+    },
+    {
+      "udp": "trigger_fullscreen",
+      "id": 83
+    },
+    {
+      "udp": "trigger_generic",
+      "id": 84
+    },
+    {
+      "udp": "trigger_handler",
+      "id": 85
+    },
+    {
+      "udp": "trigger_leafs",
+      "id": 86
+    },
+    {
+      "udp": "trigger_live",
+      "id": 87
+    },
+    {
+      "udp": "trigger_livenation",
+      "id": 88
+    },
+    {
+      "udp": "trigger_logo",
+      "id": 89
+    },
+    {
+      "udp": "trigger_menu",
+      "id": 90
+    },
+    {
+      "udp": "trigger_monday",
+      "id": 91
+    },
+    {
+      "udp": "trigger_nonlive",
+      "id": 92
+    },
+    {
+      "udp": "trigger_nosmoking",
+      "id": 93
+    },
+    {
+      "udp": "trigger_ovo_guest_player",
+      "id": 94
+    },
+    {
+      "udp": "trigger_playlist1",
+      "id": 95
+    },
+    {
+      "udp": "trigger_playlist2",
+      "id": 96
+    },
+    {
+      "udp": "trigger_playoffs",
+      "id": 97
+    },
+    {
+      "udp": "trigger_premium",
+      "id": 98
+    },
+    {
+      "udp": "trigger_raps_generic",
+      "id": 99
+    },
+    {
+      "udp": "trigger_raptor_name",
+      "id": 100
+    },
+    {
+      "udp": "trigger_raptors",
+      "id": 101
+    },
+    {
+      "udp": "trigger_rsa",
+      "id": 102
+    },
+    {
+      "udp": "trigger_scoreaslice_leafs",
+      "id": 103
+    },
+    {
+      "udp": "trigger_scoreaslice_raptors",
+      "id": 104
+    },
+    {
+      "udp": "trigger_scotiaclub",
+      "id": 105
+    },
+    {
+      "udp": "trigger_security",
+      "id": 106
+    },
+    {
+      "udp": "trigger_sherclub",
+      "id": 107
+    },
+    {
+      "udp": "trigger_special1",
+      "id": 108
+    },
+    {
+      "udp": "trigger_special2",
+      "id": 109
+    },
+    {
+      "udp": "trigger_specialmenu",
+      "id": 110
+    },
+    {
+      "udp": "trigger_sport",
+      "id": 111
+    },
+    {
+      "udp": "trigger_strictbowlclosure",
+      "id": 112
+    },
+    {
+      "udp": "trigger_tfc",
+      "id": 113
+    },
+    {
+      "udp": "trigger_twitch",
+      "id": 114
+    },
+    {
+      "udp": "trigger_victor_east",
+      "id": 115
+    },
+    {
+      "udp": "trigger_victor_west",
+      "id": 116
+    },
+    {
+      "udp": "trigger_vom_aeroplan_leafs",
+      "id": 117
+    },
+    {
+      "udp": "trigger_vom_aeroplan_raptors",
+      "id": 118
+    },
+    {
+      "udp": "trigger_vom_aircanada",
+      "id": 119
+    },
+    {
+      "udp": "trigger_vom_as_rogers_l",
+      "id": 120
+    },
+    {
+      "udp": "trigger_vom_as_rogers_r",
+      "id": 121
+    },
+    {
+      "udp": "trigger_vom_as_sportsnet",
+      "id": 122
+    },
+    {
+      "udp": "trigger_vom_bell",
+      "id": 123
+    },
+    {
+      "udp": "trigger_vom_canadabasketball",
+      "id": 124
+    },
+    {
+      "udp": "trigger_vom_canadiantire",
+      "id": 125
+    },
+    {
+      "udp": "trigger_vom_cocacola",
+      "id": 126
+    },
+    {
+      "udp": "trigger_vom_colour",
+      "id": 127
+    },
+    {
+      "udp": "trigger_vom_coorslight",
+      "id": 128
+    },
+    {
+      "udp": "trigger_vom_coorslight_raptors",
+      "id": 129
+    },
+    {
+      "udp": "trigger_vom_ev_wethenorth",
+      "id": 130
+    },
+    {
+      "udp": "trigger_vom_fallsview",
+      "id": 131
+    },
+    {
+      "udp": "trigger_vom_findmestrobe",
+      "id": 132
+    },
+    {
+      "udp": "trigger_vom_ibm",
+      "id": 133
+    },
+    {
+      "udp": "trigger_vom_ibm",
+      "id": 134
+    },
+    {
+      "udp": "trigger_vom_molsoncanadian",
+      "id": 135
+    },
+    {
+      "udp": "trigger_vom_newsponsor1",
+      "id": 136
+    },
+    {
+      "udp": "trigger_vom_newsponsor2",
+      "id": 137
+    },
+    {
+      "udp": "trigger_vom_nosmoking",
+      "id": 138
+    },
+    {
+      "udp": "trigger_vom_olg_3exciting",
+      "id": 139
+    },
+    {
+      "udp": "trigger_vom_pizzapizza",
+      "id": 140
+    },
+    {
+      "udp": "trigger_vom_popeyes",
+      "id": 141
+    },
+    {
+      "udp": "trigger_vom_pregame",
+      "id": 142
+    },
+    {
+      "udp": "trigger_vom_readytoeurope",
+      "id": 143
+    },
+    {
+      "udp": "trigger_vom_rogers",
+      "id": 144
+    },
+    {
+      "udp": "trigger_vom_rogers5g",
+      "id": 145
+    },
+    {
+      "udp": "trigger_vom_scotiabank",
+      "id": 146
+    },
+    {
+      "udp": "trigger_vom_sportchek",
+      "id": 147
+    },
+    {
+      "udp": "trigger_vom_sportsnet",
+      "id": 148
+    },
+    {
+      "udp": "trigger_vom_sprite",
+      "id": 149
+    },
+    {
+      "udp": "trigger_vom_tangerine",
+      "id": 150
+    },
+    {
+      "udp": "trigger_vom_welcometoronto",
+      "id": 151
+    },
+    {
+      "udp": "trigger_wethenorth",
+      "id": 152
+    },
+    {
+      "udp": "udp://@239.192.0.50",
+      "id": 153
+    },
+    {
+      "udp": "upcoming_events",
+      "id": 154
+    },
+    {
+      "udp": "volume_down",
+      "id": 155
+    },
+    {
+      "udp": "volume_mute",
+      "id": 156
+    },
+    {
+      "udp": "volume_up",
+      "id": 157
+    }
+  ],
+  "schedules": [],
+  "channel": [
+    {
+      "channel_name": "SBA InHouse 1",
+      "channel_url": "udp://239.192.0.1:50000",
+      "id": 1
+    },
+    {
+      "channel_name": "SBA InHouse 2",
+      "channel_url": "udp://239.192.0.2:50000",
+      "id": 2
+    },
+    {
+      "channel_name": "SBA InHouse 3",
+      "channel_url": "udp://239.192.0.3:50000",
+      "id": 3
+    },
+    {
+      "channel_name": "SBA InHouse 4",
+      "channel_url": "udp://239.192.0.4:50000",
+      "id": 4
+    },
+    {
+      "channel_name": "BMO-In-House1",
+      "channel_url": "udp://239.194.0.18:50000",
+      "id": 5
+    },
+    {
+      "channel_name": "BMO-In-House2",
+      "channel_url": "udp://239.194.0.18:50000",
+      "id": 6
+    },
+    {
+      "channel_name": "MLS TV",
+      "channel_url": "udp://239.193.20.14:50000",
+      "id": 7
+    },
+    {
+      "channel_name": "BMO Apple TV Backup",
+      "channel_url": "udp://239.194.20.16:50000",
+      "id": 8
+    },
+    {
+      "channel_name": "NBA Depth Chart East",
+      "channel_url": "udp://239.192.0.9:50000",
+      "id": 9
+    },
+    {
+      "channel_name": "NBA Depth Chart West",
+      "channel_url": "udp://239.192.0.10:50000",
+      "id": 10
+    },
+    {
+      "channel_name": "Raptors Dressing Room",
+      "channel_url": "udp://239.192.0.11:50000",
+      "id": 11
+    },
+    {
+      "channel_name": "Argos In-House-1",
+      "channel_url": "udp://239.192.1.16:50000",
+      "id": 12
+    },
+    {
+      "channel_name": "ESPN",
+      "channel_url": "udp://239.192.0.20:50000",
+      "id": 13
+    },
+    {
+      "channel_name": "ESPN 2",
+      "channel_url": "udp://239.192.0.21:50000",
+      "id": 14
+    },
+    {
+      "channel_name": "RAPTORS 905",
+      "channel_url": "udp://239.192.0.32:50000",
+      "id": 15
+    },
+    {
+      "channel_name": "SNET 360",
+      "channel_url": "udp://239.192.0.40:50000",
+      "id": 16
+    },
+    {
+      "channel_name": "SNET EAST",
+      "channel_url": "udp://239.192.0.41:50000",
+      "id": 17
+    },
+    {
+      "channel_name": "SNET ONE",
+      "channel_url": "udp://239.192.0.42:50000",
+      "id": 18
+    },
+    {
+      "channel_name": "SNET Ontario",
+      "channel_url": "udp://239.192.0.43:50000",
+      "id": 19
+    },
+    {
+      "channel_name": "SNET Pacific",
+      "channel_url": "udp://239.192.0.44:50000",
+      "id": 20
+    },
+    {
+      "channel_name": "SNET WEST",
+      "channel_url": "udp://239.192.0.45:50000",
+      "id": 21
+    },
+    {
+      "channel_name": "DirecTV 1",
+      "channel_url": "udp://239.193.20.22:50000",
+      "id": 22
+    },
+    {
+      "channel_name": "DirecTV 2",
+      "channel_url": "udp://239.193.20.23:50000",
+      "id": 23
+    },
+    {
+      "channel_name": "SNET WORLD",
+      "channel_url": "udp://239.192.0.46:50000",
+      "id": 24
+    },
+    {
+      "channel_name": "TSN1",
+      "channel_url": "udp://239.192.0.47:50000",
+      "id": 25
+    },
+    {
+      "channel_name": "TSN2",
+      "channel_url": "udp://239.192.0.48:50000",
+      "id": 26
+    },
+    {
+      "channel_name": "TSN3",
+      "channel_url": "udp://239.192.0.49:50000",
+      "id": 27
+    },
+    {
+      "channel_name": "TSN4",
+      "channel_url": "udp://239.192.0.50:50000",
+      "id": 28
+    },
+    {
+      "channel_name": "TSN5",
+      "channel_url": "udp://239.192.0.51:50000",
+      "id": 29
+    },
+    {
+      "channel_name": "NBA TV CANADA",
+      "channel_url": "udp://239.192.0.52:50000",
+      "id": 30
+    },
+    {
+      "channel_name": "NFL Network",
+      "channel_url": "udp://239.192.0.54:50000",
+      "id": 31
+    },
+    {
+      "channel_name": "MLB Network",
+      "channel_url": "udp://239.192.0.55:50000",
+      "id": 32
+    },
+    {
+      "channel_name": "EuroWorldSports",
+      "channel_url": "udp://239.192.0.56:50000",
+      "id": 33
+    },
+    {
+      "channel_name": "beIN Sports",
+      "channel_url": "udp://239.192.0.57:50000",
+      "id": 34
+    },
+    {
+      "channel_name": "Golf Channel",
+      "channel_url": "udp://239.192.0.58:50000",
+      "id": 35
+    },
+    {
+      "channel_name": "RDS",
+      "channel_url": "udp://239.192.0.59:50000",
+      "id": 36
+    },
+    {
+      "channel_name": "RTV SPORTS",
+      "channel_url": "udp://239.192.0.60:50000",
+      "id": 37
+    },
+    {
+      "channel_name": "431     SuperSports",
+      "channel_url": "udp://239.192.0.61:50000",
+      "id": 38
+    },
+    {
+      "channel_name": "432     SuperSports",
+      "channel_url": "udp://239.192.0.62:50000",
+      "id": 39
+    },
+    {
+      "channel_name": "433     SuperSports",
+      "channel_url": "udp://239.192.0.63:50000",
+      "id": 40
+    },
+    {
+      "channel_name": "434     SuperSports",
+      "channel_url": "udp://239.192.0.64:50000",
+      "id": 41
+    },
+    {
+      "channel_name": "435     SuperSports",
+      "channel_url": "udp://239.192.0.65:50000",
+      "id": 42
+    },
+    {
+      "channel_name": "436     SuperSports",
+      "channel_url": "udp://239.192.0.66:50000",
+      "id": 43
+    },
+    {
+      "channel_name": "437     SuperSports",
+      "channel_url": "udp://239.192.0.67:50000",
+      "id": 44
+    },
+    {
+      "channel_name": "438     SuperSports",
+      "channel_url": "udp://239.192.0.68:50000",
+      "id": 45
+    },
+    {
+      "channel_name": "439     SuperSports",
+      "channel_url": "udp://239.193.20.69:50000",
+      "id": 46
+    },
+    {
+      "channel_name": "440     SuperSports",
+      "channel_url": "udp://239.193.20.70:50000",
+      "id": 47
+    },
+    {
+      "channel_name": "441     SuperSports",
+      "channel_url": "udp://239.193.20.71:50000",
+      "id": 48
+    },
+    {
+      "channel_name": "442     SuperSports",
+      "channel_url": "udp://239.193.20.72:50000",
+      "id": 49
+    },
+    {
+      "channel_name": "443     SuperSports",
+      "channel_url": "udp://239.193.20.73:50000",
+      "id": 50
+    },
+    {
+      "channel_name": "444     SuperSports",
+      "channel_url": "udp://239.193.20.74:50000",
+      "id": 51
+    },
+    {
+      "channel_name": "450     SuperSports",
+      "channel_url": "udp://239.193.20.75:50000",
+      "id": 52
+    },
+    {
+      "channel_name": "451     SuperSports",
+      "channel_url": "udp://239.193.20.76:50000",
+      "id": 53
+    },
+    {
+      "channel_name": "452     SuperSports",
+      "channel_url": "udp://239.193.20.77:50000",
+      "id": 54
+    },
+    {
+      "channel_name": "453     SuperSports",
+      "channel_url": "udp://239.193.20.78:50000",
+      "id": 55
+    },
+    {
+      "channel_name": "454     SuperSports",
+      "channel_url": "udp://239.193.20.79:50000",
+      "id": 56
+    },
+    {
+      "channel_name": "455     SuperSports",
+      "channel_url": "udp://239.193.20.80:50000",
+      "id": 57
+    },
+    {
+      "channel_name": "456     SuperSports",
+      "channel_url": "udp://239.193.20.81:50000",
+      "id": 58
+    },
+    {
+      "channel_name": "457     SuperSports",
+      "channel_url": "udp://239.193.20.82:50000",
+      "id": 59
+    },
+    {
+      "channel_name": "458     SuperSports",
+      "channel_url": "udp://239.193.20.83:50000",
+      "id": 60
+    },
+    {
+      "channel_name": "459     SuperSports",
+      "channel_url": "udp://239.193.20.84:50000",
+      "id": 61
+    },
+    {
+      "channel_name": "460     SuperSports",
+      "channel_url": "udp://239.192.0.85:50000",
+      "id": 62
+    },
+    {
+      "channel_name": "461     SuperSports",
+      "channel_url": "udp://239.192.0.86:50000",
+      "id": 63
+    },
+    {
+      "channel_name": "462     SuperSports",
+      "channel_url": "udp://239.192.0.87:50000",
+      "id": 64
+    },
+    {
+      "channel_name": "BNN HD",
+      "channel_url": "udp://239.192.0.88:50000",
+      "id": 65
+    },
+    {
+      "channel_name": "City Toronto HD",
+      "channel_url": "udp://239.192.0.89:50000",
+      "id": 66
+    },
+    {
+      "channel_name": "CNN HD",
+      "channel_url": "udp://239.192.0.90:50000",
+      "id": 67
+    },
+    {
+      "channel_name": "CP24 HD",
+      "channel_url": "udp://239.192.0.91:50000",
+      "id": 68
+    },
+    {
+      "channel_name": "CTV Toronto HD ",
+      "channel_url": "udp://239.192.0.92:50000",
+      "id": 69
+    },
+    {
+      "channel_name": "CTV 2 Toronto HD",
+      "channel_url": "udp://239.192.0.93:50000",
+      "id": 70
+    },
+    {
+      "channel_name": "ABC Buffalo HD",
+      "channel_url": "udp://239.192.0.94:50000",
+      "id": 71
+    },
+    {
+      "channel_name": "CBC Toronto HD",
+      "channel_url": "udp://239.192.0.95:50000",
+      "id": 72
+    },
+    {
+      "channel_name": "CBS Bufflo HD",
+      "channel_url": "udp://239.192.0.96:50000",
+      "id": 73
+    },
+    {
+      "channel_name": "FOX Buffalo HD",
+      "channel_url": "udp://239.192.0.97:50000",
+      "id": 74
+    },
+    {
+      "channel_name": "Global Toronto HD",
+      "channel_url": "udp://239.192.0.98:50000",
+      "id": 75
+    },
+    {
+      "channel_name": "NBC Buffalo HD",
+      "channel_url": "udp://239.192.0.99:50000",
+      "id": 76
+    },
+    {
+      "channel_name": "MSNBC",
+      "channel_url": "udp://239.192.0.100:50000",
+      "id": 77
+    },
+    {
+      "channel_name": "MTV HD",
+      "channel_url": "udp://239.192.0.101:50000",
+      "id": 78
+    },
+    {
+      "channel_name": "MuchMusic HD",
+      "channel_url": "udp://239.192.0.102:50000",
+      "id": 79
+    },
+    {
+      "channel_name": "OLN HD",
+      "channel_url": "udp://239.192.0.103:50000",
+      "id": 80
+    },
+    {
+      "channel_name": "PeachTree TV HD",
+      "channel_url": "udp://239.192.0.104:50000",
+      "id": 81
+    },
+    {
+      "channel_name": "TreeHouse HD",
+      "channel_url": "udp://239.192.0.105:50000",
+      "id": 82
+    },
+    {
+      "channel_name": "OMNI 1",
+      "channel_url": "udp://239.192.0.106:50000",
+      "id": 83
+    },
+    {
+      "channel_name": "OMNI 2 HD",
+      "channel_url": "udp://239.192.0.107:50000",
+      "id": 84
+    },
+    {
+      "channel_name": "KTLA HD",
+      "channel_url": "udp://239.192.0.108:50000",
+      "id": 85
+    },
+    {
+      "channel_name": "CHCH HD",
+      "channel_url": "udp://239.192.0.109:50000",
+      "id": 86
+    },
+    {
+      "channel_name": "City Vancouver HD",
+      "channel_url": "udp://239.192.0.110:50000",
+      "id": 87
+    },
+    {
+      "channel_name": "CTV British Colombia HD",
+      "channel_url": "udp://239.192.0.111:50000",
+      "id": 88
+    },
+    {
+      "channel_name": "ABC Seattle HD",
+      "channel_url": "udp://239.192.0.112:50000",
+      "id": 89
+    },
+    {
+      "channel_name": "CBC Ottawa HD",
+      "channel_url": "udp://239.192.0.113:50000",
+      "id": 90
+    },
+    {
+      "channel_name": "CBC Vancouver HD",
+      "channel_url": "udp://239.192.0.114:50000",
+      "id": 91
+    },
+    {
+      "channel_name": "CBS Seattle HD",
+      "channel_url": "udp://239.192.0.115:50000",
+      "id": 92
+    },
+    {
+      "channel_name": "FOX Seattle HD",
+      "channel_url": "udp://239.192.0.116:50000",
+      "id": 93
+    },
+    {
+      "channel_name": "Global BC HD",
+      "channel_url": "udp://239.192.0.117:50000",
+      "id": 94
+    },
+    {
+      "channel_name": "NBC Seatle HD",
+      "channel_url": "udp://239.192.0.118:50000",
+      "id": 95
+    },
+    {
+      "channel_name": "NBA2KLeauge Twitch",
+      "channel_url": "udp://239.192.0.191:50000",
+      "id": 96
+    }
+  ],
+  "apple_TV": [],
+  "thumbnails": [
+    {
+      "LocalTest": [
+        {
+          "serial": "D7E945000224",
+          "ip": "192.168.0.110",
+          "player": "XT1144 (Thai)",
+          "file": "20260315T093618.jpg",
+          "id": 1
+        },
+        {
+          "serial": "UJE23V001790",
+          "ip": "192.168.0.110",
+          "player": "XT1144 (Thai)",
+          "file": "20260315T093618.jpg",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "OVO_DressingRoom_Followers": [
+        {
+          "player_ip": "172.17.36.242",
+          "serial": "USD3D3001672",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M05",
+          "health": "Normal",
+          "uptime": "3.21:40:19",
+          "file": "20260315T093618.jpg",
+          "id": 1
+        },
+        {
+          "player_ip": "172.17.36.234",
+          "serial": "USE423000340",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M04",
+          "health": "Normal",
+          "uptime": "1.21:40:19",
+          "file": "20260315T093618.jpg",
+          "id": 2
+        },
+        {
+          "player_ip": "172.17.36.145",
+          "serial": "USE42W000164",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M08",
+          "health": "Normal",
+          "uptime": "21:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 3
+        },
+        {
+          "player_ip": "172.17.36.133",
+          "serial": "USF55F000831",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M07",
+          "health": "Normal",
+          "uptime": "21:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 4
+        },
+        {
+          "player_ip": "172.17.36.142",
+          "serial": "USF55N000106",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M15",
+          "health": "Normal",
+          "uptime": "2.21:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 5
+        },
+        {
+          "player_ip": "172.17.36.149",
+          "serial": "USF55N000125",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M14",
+          "health": "Normal",
+          "uptime": "21:40:17",
+          "file": "20260315T093618.jpg",
+          "id": 6
+        },
+        {
+          "player_ip": "172.17.36.222",
+          "serial": "USF55N000502",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M11",
+          "health": "Normal",
+          "uptime": "2.21:40:17",
+          "file": "20260315T093618.jpg",
+          "id": 7
+        },
+        {
+          "player_ip": "172.17.36.215",
+          "serial": "USF55P000511",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M03",
+          "health": "Normal",
+          "uptime": "1.21:40:17",
+          "file": "20260315T093618.jpg",
+          "id": 8
+        },
+        {
+          "player_ip": "172.17.36.136",
+          "serial": "USF55P001105",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M06",
+          "health": "Normal",
+          "uptime": "1.21:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 9
+        },
+        {
+          "player_ip": "172.17.36.217",
+          "serial": "USF55R000162",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M02",
+          "health": "Normal",
+          "uptime": "21:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 10
+        },
+        {
+          "player_ip": "172.17.36.180",
+          "serial": "USF55R000181",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M13",
+          "health": "Normal",
+          "uptime": "21:40:16",
+          "file": "20260315T093618.jpg",
+          "id": 11
+        },
+        {
+          "player_ip": "172.17.36.245",
+          "serial": "USF55R000341",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M09",
+          "health": "Normal",
+          "uptime": "4.21:40:17",
+          "file": "20260315T093618.jpg",
+          "id": 12
+        },
+        {
+          "player_ip": "172.17.36.243",
+          "serial": "USF55R000501",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M10",
+          "health": "Normal",
+          "uptime": "9.09:40:18",
+          "file": "20260315T093618.jpg",
+          "id": 13
+        },
+        {
+          "player_ip": "172.17.36.236",
+          "serial": "USF55R000899",
+          "model": "XT1145",
+          "player_name": "OVO_DressingRoom_M12",
+          "health": "Normal",
+          "uptime": "21:40:16",
+          "file": "20260315T093618.jpg",
+          "id": 14
+        }
+      ]
+    },
+    {
+      "Default": [
+        {
+          "serial": "UJE9CC003540",
+          "ip": "192.168.0.110",
+          "player": "XT1144 (Thai)",
+          "file": "20260317T172431.jpg",
+          "id": 1
+        },
+        {
+          "serial": "L8G79S000576",
+          "ip": "192.168.1.210",
+          "player": "XT1144 (Thai)",
+          "file": "20260323T161415.jpg",
+          "id": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Location on World Map</title>
+    <style>
+        #map { height: 500px; width: 100%; margin-top: 20px; }
+        body { font-family: Arial, sans-serif; }
+    </style>
+    <link rel="stylesheet" href="js/leaflet.css" />
+</head>
+<body>
+    <h1>My Location on the World Map</h1>
+    <div id="map"></div>
+    <script src="js/leaflet.js"></script>
+    <script>
+        // Replace these coordinates with your detected location
+        const locations = [
+            {
+                latitude: 43.5789,
+                longitude: -79.6583,
+                city: "Mississauga",
+                country: "CA"
+            },
+            {
+                latitude: 49.2827,
+                longitude: -123.1207,
+                city: "Vancouver",
+                country: "CA"
+            }
+        ];
+
+        // Initialize the map centered on the first location
+        const map = L.map('map').setView([locations[0].latitude, locations[0].longitude], 4);
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Add a marker for each location
+        locations.forEach(loc => {
+            L.marker([loc.latitude, loc.longitude])
+                .addTo(map)
+                .bindPopup(`<b>Your Location</b><br>${loc.city}, ${loc.country}`);
+        });
+        // Optionally open the first marker's popup
+        map.eachLayer(layer => {
+            if (layer instanceof L.Marker) {
+                layer.openPopup();
+                return false;
+            }
+        });
+    </script>
+</body>
+</html>

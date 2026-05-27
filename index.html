@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,44 +16,52 @@
     <div id="map"></div>
     <script src="js/leaflet.js"></script>
     <script>
-        // Replace these coordinates with your detected location
-        const locations = [
-            {
-                latitude: 43.5789,
-                longitude: -79.6583,
-                city: "Mississauga",
-                country: "CA"
-            },
-            {
-                latitude: 49.2827,
-                longitude: -123.1207,
-                city: "Vancouver",
-                country: "CA"
+
+        var myLocation = "Home";
+ 
+        // https://location-rkkj.onrender.com/json/info
+
+        window.onload = function() {
+            fetchLocationsAndShowOnMap();
+        };
+
+        async function fetchLocationsAndShowOnMap() {
+            try {
+                const response = await fetch('https://location-rkkj.onrender.com/json/info');
+                const data = await response.json();
+                // If the API returns an array, use it directly. If it returns { info: [...] }, use data.info
+                const remoteLocations = Array.isArray(data) ? data : (data.info || []);
+                if (!remoteLocations.length) {
+                    return;
+                }
+
+                // Show all locations if more than one, otherwise just the first
+                const map = L.map('map').setView([remoteLocations[0].latitude, remoteLocations[0].longitude], 4);
+
+                // Add OpenStreetMap tiles
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    maxZoom: 19,
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+
+                let firstMarker = null;
+
+                console.log(JSON.stringify(remoteLocations));
+                remoteLocations.forEach((loc, idx) => {
+                    const marker = L.marker([loc.latitude, loc.longitude])
+                        .addTo(map)
+                        .bindPopup(`<b>Your Location</b><br>${loc.city}, ${loc.country}`);
+                    if (idx === 0) firstMarker = marker;
+                });
+                // Open the first marker's popup
+                if (firstMarker) firstMarker.openPopup();
+            } catch (err) {
+                alert('Failed to fetch locations from API.');
+                console.error(err);
             }
-        ];
+        }
 
-        // Initialize the map centered on the first location
-        const map = L.map('map').setView([locations[0].latitude, locations[0].longitude], 4);
-
-        // Add OpenStreetMap tiles
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '© OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Add a marker for each location
-        locations.forEach(loc => {
-            L.marker([loc.latitude, loc.longitude])
-                .addTo(map)
-                .bindPopup(`<b>Your Location</b><br>${loc.city}, ${loc.country}`);
-        });
-        // Optionally open the first marker's popup
-        map.eachLayer(layer => {
-            if (layer instanceof L.Marker) {
-                layer.openPopup();
-                return false;
-            }
-        });
+        
     </script>
 </body>
 </html>

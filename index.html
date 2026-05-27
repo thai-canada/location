@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,17 +21,15 @@
 
         var myLocation = "Home";
  
-        // https://location-rkkj.onrender.com/json/info
-
         const BIN_ID = '6a17509921f9ee59d292b72f';
         let MASTER_KEY = '';
        
         window.onload = function() {
 
-            fetchMasterKey().then(() => {
-                fetchLocationsAndShowOnMap();
-            });
 
+            // https://gist.githubusercontent.com/thai-canada/f817a4eaf1805ca9d6bdb79980ef9cb1/raw/6bb27cd6febddee773c289edf5dbddba1d609d65/gistfile1.txt
+
+            fetchLocationsAndShowOnMap();
         };
 
 
@@ -51,15 +50,13 @@
 
         async function fetchLocationsAndShowOnMap() {
             try {
-                const response = await fetch(`https://api.jsonbin.io/v3/b/${BIN_ID}/latest`, {
-                    method: "GET",
-                    headers: {
-                        "X-Master-Key": MASTER_KEY
-                    }
-                });
+                const response = await fetch('https://gist.githubusercontent.com/thai-canada/f817a4eaf1805ca9d6bdb79980ef9cb1/raw/6bb27cd6febddee773c289edf5dbddba1d609d65/gistfile1.txt')
+          
                 const data = await response.json();
-                // Extract locations array from JSONBin structure
-                const remoteLocations = (data.record && Array.isArray(data.record.locations)) ? data.record.locations : [];
+
+                console.log(JSON.stringify(data.info, null, 2));
+                // Safely extract locations array
+                const remoteLocations = Array.isArray(data.info) ? data.info : [];
                 if (!remoteLocations.length) {
                     return;
                 }

@@ -25,6 +25,10 @@ app.get('/ver',(req,res)=>{
 	res.json({"version": '1.0.0'});
 })
 
+app.get('/masterkey',(req,res)=>{
+	res.json({"masterKey": process.env.JSONBIN_KEY || "No key set"});
+})
+
 
 const dataDir = path.join(__dirname, "data");
 const dbFile = path.join(dataDir, "db.json");
@@ -45,3 +49,7 @@ app.use('/json', server.use(router));
 app.listen(n_port, () => {
     console.log('JSON Server is running at: ' + n_port.toString());
 })
+
+
+// http://localhost:50002/logs?type=button
+// https://location-rkkj.onrender.com/json/info

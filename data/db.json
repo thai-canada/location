@@ -1,20 +1,18 @@
 {
   "info": [
     {
-      "latitude": 49.2827,
-      "location": "Home",
-      "longitude": -123.1207,
-      "city": "Vancouver",
-      "country": "CA",
-      "id": 1
+        latitude: 43.5789,
+        longitude: -79.6583,
+        location: "Home",
+        city: "Mississauga",
+        country: "CA"
     },
     {
-      "latitude": 49.2827,
-      "location": "THAI Home",
-      "longitude": -123.1207,
-      "city": "Mississauga",
-      "country": "CA",
-      "id": 2
+        latitude: 49.2827,
+        location: "Home",
+        longitude: -123.1207,
+        city: "Vancouver",
+        country: "CA"
     }
   ]
 }

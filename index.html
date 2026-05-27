@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,14 +20,34 @@
 
         var myLocation = "Home";
  
-        const BIN_ID = '6a17509921f9ee59d292b72f';
-        // const MASTER_KEY = '$2a$10$5sQLlb2I7jiTLrE3WUHZw.PbdFgyZJxK5VEfV9eMInJ8cpSe/95g6';
-        const MASTER_KEY = process.env.JSONBIN_KEY;
-        console.log("Is the key loaded?", MASTER_KEY ? "Yes, it is working!" : "No, it is empty!");
+        // https://location-rkkj.onrender.com/json/info
 
+        const BIN_ID = '6a17509921f9ee59d292b72f';
+        let MASTER_KEY = '';
+       
         window.onload = function() {
-            fetchLocationsAndShowOnMap();
+
+            fetchMasterKey().then(() => {
+                fetchLocationsAndShowOnMap();
+            });
+
         };
+
+
+        // Function to call /masterkey endpoint and log the result
+        async function fetchMasterKey() {
+            try {
+                const response = await fetch('/masterkey');
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                MASTER_KEY = data.masterKey;
+                console.log("------------------------------- Fetched master key:", MASTER_KEY);
+            } catch (error) {
+                console.error('Failed to fetch /masterkey:', error);
+            }
+        }
 
         async function fetchLocationsAndShowOnMap() {
             try {

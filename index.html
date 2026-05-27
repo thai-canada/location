@@ -19,11 +19,10 @@
 
         var myLocation = "Home";
  
-        // https://location-rkkj.onrender.com/json/info
-
         const BIN_ID = '6a17509921f9ee59d292b72f';
         // const MASTER_KEY = '$2a$10$5sQLlb2I7jiTLrE3WUHZw.PbdFgyZJxK5VEfV9eMInJ8cpSe/95g6';
-        const MASTER_KEY = process.env.JSONBIN_KEY; 
+        const MASTER_KEY = process.env.JSONBIN_KEY;
+        console.log("Is the key loaded?", MASTER_KEY ? "Yes, it is working!" : "No, it is empty!");
 
         window.onload = function() {
             fetchLocationsAndShowOnMap();

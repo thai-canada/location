@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="js/leaflet.css" />
 </head>
 <body>
-    <h1>My Location on the World Map</h1>
+    <h1>World Map</h1>
     <div id="map"></div>
     <script src="js/leaflet.js"></script>
     <script>
@@ -48,11 +48,28 @@
                 let firstMarker = null;
 
                 console.log(JSON.stringify(remoteLocations));
+
+                // Count how many locations share each coordinate
+                const coordCount = {};
+                remoteLocations.forEach(loc => {
+                    const key = loc.latitude + ',' + loc.longitude;
+                    coordCount[key] = (coordCount[key] || 0) + 1;
+                });
+
+                // Track if we've already placed a marker for a coordinate
+                const coordPlaced = {};
+
                 remoteLocations.forEach((loc, idx) => {
-                    const marker = L.marker([loc.latitude, loc.longitude])
-                        .addTo(map)
-                        .bindPopup(`<b>Your Location</b><br>${loc.city}, ${loc.country}`);
-                    if (idx === 0) firstMarker = marker;
+                    const key = loc.latitude + ',' + loc.longitude;
+                    if (coordPlaced[key]) return; // Only place one marker per coordinate
+                    coordPlaced[key] = true;
+                    // Always use the default marker icon
+                    const marker = L.marker([loc.latitude, loc.longitude]);
+                    const playerCount = coordCount[key];
+                    const playerText = playerCount === 1 ? '1 player' : `${playerCount} players`;
+                    marker.addTo(map)
+                        .bindPopup(`<b>${loc.city}</b><br>${playerText}`);
+                    if (firstMarker === null) firstMarker = marker;
                 });
                 // Open the first marker's popup
                 if (firstMarker) firstMarker.openPopup();
